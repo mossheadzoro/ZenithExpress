@@ -27,7 +27,7 @@ export class News extends Component {
       loading: false,
       page: 1,
       totalArticles: 0,
-      apiKey:"03c02dc2fd154f44b40553424587dff2"
+      apiKey:process.env.REACT_APP_NEWS_APP
     };
   }
   async componentDidMount() {
